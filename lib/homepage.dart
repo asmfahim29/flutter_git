@@ -13,6 +13,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   TextEditingController _taskEditingController = TextEditingController();
 
+  //creating method for branchA
+  void git_method_branchA(){
+    print('created method for branch a');
+  }
   @override
   Widget build(BuildContext context) {
     return SafeArea(child: Scaffold(
