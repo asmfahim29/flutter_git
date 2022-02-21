@@ -10,6 +10,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  void git_method(){
+    print('git branch branchB is created and added a method');
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(child: Scaffold(
