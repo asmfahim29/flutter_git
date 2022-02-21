@@ -29,10 +29,11 @@ class _MyHomePageState extends State<MyHomePage> {
     return SafeArea(child: Scaffold(
       appBar: AppBar(
         title: Text("Database_post"),
-
       ),
+      backgroundColor: Colors.deepOrange,
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextField(
               controller: _taskEditingController,
