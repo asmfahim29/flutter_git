@@ -11,18 +11,14 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  //branchB added method
-  void git_method_branchB(){
-    print('git branch branchB is created and added a method');
-  }
-
 
   TextEditingController _taskEditingController = TextEditingController();
 
-  //creating method for branchA
-  void git_method_branchA(){
-    print('created method for branch a');
+   void git_branchD_method(){
+
+    print("created method for branchD");
   }
+
 
   @override
   Widget build(BuildContext context) {
