@@ -18,6 +18,10 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
 
+  static void modified_function_branchA(){
+    print("modified method for branch a");
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(child: Scaffold(
